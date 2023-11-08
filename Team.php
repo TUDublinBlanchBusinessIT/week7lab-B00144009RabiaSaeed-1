@@ -42,11 +42,15 @@ class Team
     public function getGoalAverage():float
     {
         //first of all you need to get the value for goals that are actually present so you're gonna have to say if the goals are greater then 0 then something would happen because you don't want to be dividing by a zero that's just not a good thing at all//
-        //just putting this here to copy $this->totalPoints += 3;//
+        //just putting this here to copy $this->totalPoints += 3; coz this is what the instructions told me//
+        //adding brackets for neatness, python "skill" I guess//
         if ($this->totalGames > 1) {
             return $this->totalGoals/$this->totalGames;
             
-            else return 0;
+            else {
+                return 0;
+            }
         }
     }
 }
+?>
