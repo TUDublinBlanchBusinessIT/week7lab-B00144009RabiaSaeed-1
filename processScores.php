@@ -12,6 +12,7 @@ $homeTeam=Team($teamName);
 
 //Like I feel like you'd have to GET the score from the thing if you're gonna as for the values, feel like the instructions are telling me to get them?//
 //$teamName = $_GET["teamName"]; just putting this here to copy//
+//this is what it says on the form btw//
 //first one's//
 $home1 = $_GET["home1"];
 $away1 = $_GET["away1"];
@@ -25,9 +26,9 @@ $home3 = $_GET["home3"];
 $away3 = $_GET["away3"];
 
     
-$homeTeam->finalSore($home1,$away1);
-$homeTeam->finalSore($home2,$away2);
-$homeTeam->finalSore($home3,$away3);
+$homeTeam->finalScore($home1,$away1);
+$homeTeam->finalScore($home2,$away2);
+$homeTeam->finalScore($home3,$away3);
 
 //Now it's asking me to calculate goal average using the function getGoalaverage() which I've already made in the Team.php file so that's handy. In python to call a function you just go getGoalaverage(), intruction tells me to use it on the $homeTeam variable//
 //nvm//

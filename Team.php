@@ -47,7 +47,7 @@ class Team
         if ($this->totalGames > 1) {
             return $this->totalGoals/$this->totalGames;
             
-            else {
+            elseif {
                 return 0;
             }
         }
