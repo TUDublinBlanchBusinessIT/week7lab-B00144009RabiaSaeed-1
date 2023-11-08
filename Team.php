@@ -24,6 +24,7 @@ class Team
     //gonna use $parm1 and $parm2 for this since the instruction told me to use that//
     //total games plus total games you get me right//
     //total goals plus equals//
+    //parm1 is home team and parm2 is the opposing team//
     public function finalScore($parm1, $parm2)
     {
                //okay so the hint says that I have to increase the total, in python I've had to increment stuff so I'm gonna use this logic here and say that it increase by 1 at the beginning//
@@ -41,11 +42,11 @@ class Team
     
     public function getGoalAverage():float
     {
-        if ($this->totalGames > 1) {
-            return $this->totalGoals/$this->totalGames;
-        }else {
-            return 0;
+        //you showed us the slide that says something returning a value// 
+        //so if i add the function it's telling me then that should be fine//
+        return $this->totalGoals/$this->totalGames;
+
             }
-        }
+        
     }
 ?>

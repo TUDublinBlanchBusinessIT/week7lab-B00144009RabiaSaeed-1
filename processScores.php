@@ -38,6 +38,7 @@ $homeTeam->finalScore($home3,$away3);
 $GoalAverageOfTeam = $homeTeam->getGoalaverage();
 
 //I just searched what operator is used in PHP to connect a bunch of strings, turns out it's a full stop and not a comma like in python//
+//In python you can just do "this is a sentence", apple3//
 echo "This is the calculated goal average:" .  $GoalAverageOfTeam;
 
 ?>
