@@ -25,7 +25,7 @@ $away2 = $_GET["away2"];
 $home3 = $_GET["home3"];
 $away3 = $_GET["away3"];
 
-    
+//instructions told me this//    
 $homeTeam->finalScore($home1,$away1);
 $homeTeam->finalScore($home2,$away2);
 $homeTeam->finalScore($home3,$away3);
