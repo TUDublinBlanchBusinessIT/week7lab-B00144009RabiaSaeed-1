@@ -1,5 +1,5 @@
 <?php
-
+//part1//
 //okay so this file was supposed to be called Team.php...... ops. Gotta rename it//
 class Team
 {
@@ -22,6 +22,8 @@ class Team
     
     //I noticed that in php you don't do elif like python, you do it like elseif, I had to learn this//
     //gonna use $parm1 and $parm2 for this since the instruction told me to use that//
+    //total games plus total games you get me right//
+    //total goals plus equals//
     public function finalScore($parm1, $parm2)
     {
                //okay so the hint says that I have to increase the total, in python I've had to increment stuff so I'm gonna use this logic here and say that it increase by 1 at the beginning//
@@ -32,7 +34,7 @@ class Team
         } elseif ($parm1==$parm2) {
             $this->totalPoints += 1;
         }
-        //okay now that the if statment is done I can add the final score method that adds the total goals also, so let's do something with the instance and go into goals because that's what we want to increase//
+        //okay now that the if statment is done I can add the final score method that adds the total goals also, so let's do something with the instance and go into goals because that's what we want to increase...and also coz instructions told me to do it//
            
            $this->totalGoals+=$parm1;
 }
