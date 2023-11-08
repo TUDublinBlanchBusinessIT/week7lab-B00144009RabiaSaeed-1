@@ -1,5 +1,5 @@
 <?php
-
+   
 include('Team.php');
 
 //so i've been told to get the team name so I'll do that//
