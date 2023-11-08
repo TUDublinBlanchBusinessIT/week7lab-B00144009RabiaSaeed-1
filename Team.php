@@ -38,4 +38,15 @@ class Team
            $this->totalGoals+=$parm1;
 
     }
+    
+    public function getGoalAverage():float
+    {
+        //first of all you need to get the value for goals that are actually present so you're gonna have to say if the goals are greater then 0 then something would happen because you don't want to be dividing by a zero that's just not a good thing at all//
+        //just putting this here to copy $this->totalPoints += 3;//
+        if ($this->totalGames > 1) {
+            return $this->totalGoals/$this->totalGames;
+            
+            else return 0;
+        }
+    }
 }
