@@ -8,7 +8,8 @@ $teamName = $_GET["teamName"];
 
 //So I've got to instantiate a Team.php class and then give it to a variable in php//
 //I just remember this from python//
-$homeTeam=Team($teamName);
+//Have to add new here//
+$homeTeam= new Team($teamName);
 
 //Like I feel like you'd have to GET the score from the thing if you're gonna as for the values, feel like the instructions are telling me to get them?//
 //$teamName = $_GET["teamName"]; just putting this here to copy//
